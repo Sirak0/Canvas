@@ -1,0 +1,64 @@
+
+
+
+
+@media screen and  (max-width:1000px){
+    .section1{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .section1-content{
+        margin-top: 50px;
+        display: block;
+        height: 660px;
+    }
+    .section1-content1{
+        width: 100%;
+        height: 60%;
+        
+
+    }
+    .section1-content2{
+        width: 100%;
+        height: 40%;
+    }
+    
+    
+    .phone-image{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:800px){
+    
+    .phone-image{
+        width: 80%;
+        height: 90%;
+    }
+    }
+     @media screen and (max-width:600px){
+        
+              .bg-image{
+                width: 250%;
+                }
+         }
+@media screen and (max-width:400px){
+            
+           .section1{
+               height: 900px;
+           }
+            .section1-content{
+                margin-top: 50px;
+                display: block;
+                height: 720px;
+            }
+            .phone-image{
+                width: 100%;
+                margin-top: 150px;
+                
+            }
+            }

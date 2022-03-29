@@ -1,0 +1,170 @@
+@import "../../Styles/Main.scss";
+
+
+.section4{
+    background: #F0F0F0;
+    width: 100%;
+    height: 1005px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.section4-content1{
+    //border: 2px red solid;
+    
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //border: red 2px solid;
+    align-items: center;
+   
+    
+}
+
+.screen {
+    color: $main_color;
+    font-size: 38px;
+   left: -1200px;
+    position: relative;
+    transition: 0.5s;
+    
+    
+    
+    
+}
+.section4-content1 h1 span {
+    color: black;
+}
+.section4-content1 p {
+    color:#5B5B5B;
+    font-size: 16px;
+    font-weight: 300;
+    text-align:center;
+    margin-left: 20%;
+    margin-right: 20%; 
+    right:-1200px;
+    position: relative;
+    transition: 0.5s;
+}
+.section4-content2{
+    width: 80%;
+    height: 600px;
+    //border: 1px red solid;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.slider-cont{
+    width: 133%;
+    height: 100%;
+    //border: 1px greenyellow solid;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    
+    
+}
+.slider-item{
+    width: 24%;
+    height: 100%;
+    //border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    &:hover{
+        filter:brightness(50%);
+    }
+    &:hover .camera{
+       display: block;
+       z-index: 2;
+       margin: 0;
+       
+
+    }
+}
+.slider-image{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.buttons-cont{
+    height: 40px;
+    width: 60px;
+    //border: 1px red solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+.slider-button{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: #333;
+}
+.camera{
+    
+    color: white;
+    display: none;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+.angle::before {
+    border-bottom: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle::before, .angle::after {
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    
+}
+.angle::after {
+    border-bottom: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}
+.angle2::before {
+    border-top: 72px solid #333;
+    border-right: 960px solid transparent;
+    left: 0;
+}
+.angle2::before, .angle2::after {
+    top: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    
+}
+.angle2::after {
+    border-top: 72px solid #333;
+    border-left: 960px solid transparent;
+    right: 0;
+}

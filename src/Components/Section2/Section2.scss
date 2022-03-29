@@ -1,0 +1,126 @@
+@import "../../Styles/Main.scss";
+
+.section2{
+    background: #F0F0F0;
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+.section2-content{
+    height: 300px;
+    width: 90%;
+   // border: 2px solid red;
+   display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+   align-items: center;
+    
+    
+
+    
+
+}
+
+.section2-content1{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+   
+    //border: 2px solid red;
+    //padding-top: 25px;
+    
+}
+.section2-content2{
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items:flex-start;
+    
+    
+    
+    //border: 2px solid red;
+    
+}
+.welcome {
+    
+        color:#5B5B5B;
+        font-size: 40px;
+        line-height: 50px;
+        position: relative;
+        left: -500px;
+        transition: 0.5s;
+       
+        
+        
+    
+}
+.hey{
+    color: $main_color;
+}
+.bootstrap{
+        font-size: 30px;
+        color:#5B5B5B ;
+        right: -1000px;
+        transition: 0.5s;
+        position: relative;
+        
+}
+.nemo{
+    color:#5B5B5B;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 300;
+    position: relative;
+    transition: 0.5s;
+    right: -1000px;
+    
+    
+}
+// .angle::before {
+//     border-bottom: 72px solid #333;
+//     border-right: 960px solid transparent;
+//     left: 0;
+// }
+// .angle::before, .angle::after {
+//     bottom: 0;
+//     content: "";
+//     height: 0;
+//     position: absolute;
+//     width: 0;
+//     z-index: 4;
+// }
+// .angle::after {
+//     border-bottom: 72px solid #333;
+//     border-left: 960px solid transparent;
+//     right: 0;
+// }
+// .angle2::before {
+//     border-top: 72px solid #333;
+//     border-right: 960px solid transparent;
+//     left: 0;
+// }
+// .angle2::before, .angle2::after {
+//     top: 0;
+//     content: "";
+//     height: 0;
+//     position: absolute;
+//     width: 0;
+    
+// }
+// .angle2::after {
+//     border-top: 72px solid #333;
+//     border-left: 960px solid transparent;
+//     right: 0;
+// }
